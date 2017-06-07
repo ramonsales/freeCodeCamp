@@ -4,12 +4,13 @@ body {
 }
 
 .intro {
-    background-image: url("./images/bg1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-    display:flex;
-    align-items: center;
+  background-image: url("./images/bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+  display:flex;
+  align-items: center;
 }
 
 .intro h1, .intro i {
@@ -42,7 +43,6 @@ nav a:hover{
 }
 
 section {
-  height: 100vh;
   padding-top: 55px;
   margin-bottom: 20px;
 }
@@ -57,10 +57,6 @@ section p {
   font-size: 2vw;
 }
 
-.about {
-  width: auto;
-}
-
 .photo {
   width: 50vw;
   height: auto;
@@ -68,11 +64,6 @@ section p {
 
 .portfolio {
   background-color: #2ecc71;
-}
-
-.contact {
-  height: 85vh !important;
-  width: auto;
 }
 
 .social {
@@ -94,7 +85,7 @@ section p {
 
 /* ABOUT HR */
 .about-hr {
-	text-align: center;
+  text-align: center;
   line-height: 1px;
   height: 1px;
   width: 50%;
@@ -108,7 +99,7 @@ section p {
 
 .about-hr:after {
   font-family:'FontAwesome';
-	content: '\f2be';
+  content: '\f2be';
   background-color: #090b0d;
   padding: 25px;
   color: #fff;
@@ -121,7 +112,7 @@ section p {
 
 /* PORTFOLIO HR */
 .portfolio-hr {
-	text-align: center;
+  text-align: center;
   line-height: 1px;
   height: 1px;
   width: 50%;
@@ -135,7 +126,7 @@ section p {
 
 .portfolio-hr:after {
   font-family:'FontAwesome';
-	content: '\f0b1';
+  content: '\f0b1';
   background-color: #2ecc71;
   padding: 25px;
   color: #fff;
@@ -143,7 +134,7 @@ section p {
 
 /* CONTACT HR */
 .contact-hr {
-	text-align: center;
+  text-align: center;
   line-height: 1px;
   height: 1px;
   width: 50%;
@@ -157,7 +148,7 @@ section p {
 
 .contact-hr:after {
   font-family:'FontAwesome';
-	content: '\f0e0';
+  content: '\f0e0';
   background-color: #090b0d;
   padding: 25px;
   color: #fff;
