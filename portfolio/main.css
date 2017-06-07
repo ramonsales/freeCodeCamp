@@ -1,0 +1,164 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #090b0d;
+}
+
+.intro {
+    background-image: url("./images/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    display:flex;
+    align-items: center;
+}
+
+.intro h1, .intro i {
+  font-size: 5vw;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.navbar-default {
+  background: #0e1112;
+  border-style: none;
+}
+
+.navbar-default .navbar-nav li a, .navbar-default .navbar-header a {
+  color: #fff;
+  border-bottom: #0e1112 solid 3px;
+}
+
+.navbar-default .navbar-header a:focus{
+  color: #fff;
+}
+
+nav a:hover{
+  color: #2ecc71 !important;
+}
+
+.clicked {
+  color: #fff !important;
+  border-bottom: #2ecc71 solid 3px !important;
+}
+
+section {
+  height: 100vh;
+  padding-top: 55px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #fff;
+  font-size: 3vw;
+}
+
+section p {
+  color: #ccc;
+  font-size: 2vw;
+}
+
+.about {
+  width: auto;
+}
+
+.photo {
+  width: 50vw;
+  height: auto;
+}
+
+.portfolio {
+  background-color: #2ecc71;
+}
+
+.contact {
+  height: 85vh !important;
+  width: auto;
+}
+
+.social {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.social a {
+  font-size: 30px;
+  color: #fff;
+  margin: 10px;
+}
+
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/* ABOUT HR */
+.about-hr {
+	text-align: center;
+  line-height: 1px;
+  height: 1px;
+  width: 50%;
+  font-size: 40px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #fff;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #333;
+}
+
+.about-hr:after {
+  font-family:'FontAwesome';
+	content: '\f2be';
+  background-color: #090b0d;
+  padding: 25px;
+  color: #fff;
+}
+
+/* PORTFOLIO GALLERY */
+.portfolio-gallery {
+  margin-top: 40px;
+}
+
+/* PORTFOLIO HR */
+.portfolio-hr {
+	text-align: center;
+  line-height: 1px;
+  height: 1px;
+  width: 50%;
+  font-size: 40px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #fff;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #555;
+}
+
+.portfolio-hr:after {
+  font-family:'FontAwesome';
+	content: '\f0b1';
+  background-color: #2ecc71;
+  padding: 25px;
+  color: #fff;
+}
+
+/* CONTACT HR */
+.contact-hr {
+	text-align: center;
+  line-height: 1px;
+  height: 1px;
+  width: 50%;
+  font-size: 40px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #fff;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #333;
+}
+
+.contact-hr:after {
+  font-family:'FontAwesome';
+	content: '\f0e0';
+  background-color: #090b0d;
+  padding: 25px;
+  color: #fff;
+}
